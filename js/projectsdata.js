@@ -21,23 +21,23 @@ const projectsData = [
     en: "Luxury vacation home featuring 6 bedrooms with en-suite bathrooms, designed for comfortable large-group stays with expansive glazing, elevated views, and high-quality modern finishes.",
     af: "Luukse vakansiehuis met 5 slaapkamers en 7 badkamers, ontwerp vir gemaklike grootgroep-verblyf met groot glasoppervlaktes, verhoogde uitsigte en moderne hoëgehalte afwerkings."
   },
-  thumb: "img/Mabalingwe 1002 - 1.jpg",
+  thumb: "img/Mabalingwe1002-1.jpg",
   images: [
-    "img/Mabalingwe 1002 - 1.jpg",
-    "img/Mabalingwe 1002 - 2.jpg",
-    "img/Mabalingwe 1002 - 3.jpg",
-    "img/Mabalingwe 1002 - 4.jpg",
-    "img/Mabalingwe 1002 - 5.jpg",
-    "img/Mabalingwe 1002 - 6.jpg",
-    "img/Mabalingwe 1002 - 7.jpg",
-    "img/Mabalingwe 1002 - 8.jpg",
-    "img/Mabalingwe 1002 - 9.jpg",
-    "img/Mabalingwe 1002 - 10.jpg",
-    "img/Mabalingwe 1002 - 11.jpg",
-    "img/Mabalingwe 1002 - 12.jpg",
-    "img/Mabalingwe 1002 - 13.jpg",
-    "img/Mabalingwe 1002 - 14.jpg",
-    "img/Mabalingwe 1002 - 15.jpg"
+    "img/Mabalingwe1002-1.jpg",
+    "img/Mabalingwe1002-2.jpg",
+    "img/Mabalingwe1002-3.jpg",
+    "img/Mabalingwe1002-4.jpg",
+    "img/Mabalingwe1002-5.jpg",
+    "img/Mabalingwe1002-6.jpg",
+    "img/Mabalingwe1002-7.jpg",
+    "img/Mabalingwe1002-8.jpg",
+    "img/Mabalingwe1002-9.jpg",
+    "img/Mabalingwe1002-10.jpg",
+    "img/Mabalingwe1002-11.jpg",
+    "img/Mabalingwe1002-12.jpg",
+    "img/Mabalingwe1002-13.jpg",
+    "img/Mabalingwe1002-14.jpg",
+    "img/Mabalingwe1002-15.jpg"
   ]
 },
 
@@ -57,20 +57,20 @@ const projectsData = [
     en: "Purpose-built entertainment centre featuring modern brick architecture, expansive covered walkways, and elevated viewing areas designed to support high visitor volumes within the Mabula area.",
     af: "Doelgeboude vermaaklikheidsentrum met moderne baksteen-argitektuur, ruim onderdak loopareas en verhoogde uitkykpunte, ontwerp om groot besoekersgetalle in die Mabula-omgewing te ondersteun."
   },
-  thumb: "img/Mabula Entertainment Centre - 1.jpg",
+  thumb: "img/MabulaEntertainmentCentre-1.jpg",
   images: [
-    "img/Mabula Entertainment Centre - 1.jpg",
-    "img/Mabula Entertainment Centre - 2.jpg",
-    "img/Mabula Entertainment Centre - 6.jpg",
-    "img/Mabula Entertainment Centre - 9.jpg",
-    "img/Mabula Entertainment Centre - 12.jpg",
-    "img/Mabula Entertainment Centre - 14.jpg",
-    "img/Mabula Entertainment Centre - 15.jpg",
-    "img/Mabula Entertainment Centre - 16.jpg",
-    "img/Mabula Entertainment Centre - 22.jpg",
-    "img/Mabula Entertainment Centre - 23.jpg",
-    "img/Mabula Entertainment Centre - 25.jpg",
-    "img/Mabula Entertainment Centre - 30.jpg"
+    "img/MabulaEntertainmentCentre-1.jpg",
+    "img/MabulaEntertainmentCentre-2.jpg",
+    "img/MabulaEntertainmentCentre-3.jpg",
+    "img/MabulaEntertainmentCentre-4.jpg",
+    "img/MabulaEntertainmentCentre-5.jpg",
+    "img/MabulaEntertainmentCentre-6.jpg",
+    "img/MabulaEntertainmentCentre-7.jpg",
+    "img/MabulaEntertainmentCentre-8.jpg",
+    "img/MabulaEntertainmentCentre-9.jpg",
+    "img/MabulaEntertainmentCentre-10.jpg",
+    "img/MabulaEntertainmentCentre-12.jpg",
+    "img/MabulaEntertainmentCentre-13.jpg"
   ]
 },
 
@@ -90,13 +90,13 @@ const projectsData = [
       en: "New private dwelling in the Shona Langa nature estate, from foundations through to final finishes.",
       af: "Nuwe privaat woning in die Shona Langa natuurlandgoed, van fondasies tot finale afwerkings."
     },
-    thumb: "img/Shona Langa V11 - 1.jpeg",
+    thumb: "img/ShonaLangaV11-1.jpeg",
     images: [
-      "img/Shona Langa V11 - 1.jpeg",
-      "img/Shona Langa V11 - 2.jpeg",
-      "img/Shona Langa V11 - 3.jpeg",
-      "img/Shona Langa V11 - 4.jpeg",
-      "img/Shona Langa V11 - 5.jpeg"
+      "img/ShonaLangaV11-1.jpeg",
+      "img/ShonaLangaV11-2.jpeg",
+      "img/ShonaLangaV11-3.jpeg",
+      "img/ShonaLangaV11-4.jpeg",
+      "img/ShonaLangaV11-5.jpeg"
     ]
   },
 
@@ -116,13 +116,13 @@ const projectsData = [
       en: "Bushveld-style dwelling with thatch, brickwork and lodge-inspired detailing.",
       af: "Bosveldwoning met grasdak, baksteenwerk en lodge-geïnspireerde afwerkings."
     },
-    thumb: "img/Mokaikai A - 1.jpeg",
+    thumb: "img/MokaikaiA-1.jpeg",
     images: [
-      "img/Mokaikai A - 1.jpeg",
-      "img/Mokaikai A - 2.jpeg",
-      "img/Mokaikai A - 3.jpeg",
-      "img/Mokaikai A - 4.jpeg",
-      "img/Mokaikai A - 5.jpeg"
+      "img/MokaikaiA-1.jpeg",
+      "img/MokaikaiA-2.jpeg",
+      "img/MokaikaiA-3.jpeg",
+      "img/MokaikaiA-4.jpeg",
+      "img/MokaikaiA-5.jpeg"
     ]
   },
 
@@ -142,12 +142,12 @@ const projectsData = [
       en: "New private dwelling from slab to roof structure and finishes.",
       af: "Nuwe privaat woning vanaf vloerblad tot dakstruktuur en afwerkings."
     },
-    thumb: "img/Mokaikai B - 1.jpeg",
+    thumb: "img/MokaikaiB-1.jpeg",
     images: [
-      "img/Mokaikai B - 1.jpeg",
-      "img/Mokaikai B - 2.jpeg",
-      "img/Mokaikai B - 3.jpeg",
-      "img/Mokaikai B - 4.jpeg"
+      "img/MokaikaiB-1.jpeg",
+      "img/MokaikaiB-2.jpeg",
+      "img/MokaikaiB-3.jpeg",
+      "img/MokaikaiB-4.jpeg"
     ]
   },
 
@@ -167,14 +167,13 @@ const projectsData = [
       en: "Reconstruction of a fire-damaged home at Koro Creek Golf Estate.",
       af: "Herbou van ’n huis wat brandskade opgedoen het by Koro Creek Gholflandgoed."
     },
-    thumb: "img/Koro Creek - 1.jpeg",
+    thumb: "img/KoroCreek-1.jpeg",
     images: [
-      "img/Koro Creek - 1.jpeg",
-      "img/Koro Creek - 2.jpeg",
-      "img/Koro Creek - 3.jpeg",
-      "img/Koro Creek - 4.jpeg",
-      "img/Koro Creek - 5.jpeg",
-      "img/Koro Creek - 6.jpeg"
+      "img/KoroCreek-1.jpeg",
+      "img/KoroCreek-2.jpeg",
+      "img/KoroCreek-3.jpeg",
+      "img/KoroCreek-4.jpeg",
+      "img/KoroCreek-5.jpeg"
     ]
   },
 
@@ -194,13 +193,13 @@ const projectsData = [
       en: "Double-storey face-brick home with pitched roof and integrated double garage.",
       af: "Dubbelverdieping baksteenhuis met teëldak en geïntegreerde dubbelmotorhuis."
     },
-    thumb: "img/Shona Langa T6 - 1.jpeg",
+    thumb: "img/ShonaLangaT6-1.jpeg",
     images: [
-      "img/Shona Langa T6 - 1.jpeg",
-      "img/Shona Langa T6 - 2.jpeg",
-      "img/Shona Langa T6 - 3.jpeg",
-      "img/Shona Langa T6 - 4.jpeg",
-      "img/Shona Langa T6 - 5.jpeg"
+      "img/ShonaLangaT6-1.jpeg",
+      "img/ShonaLangaT6-2.jpeg",
+      "img/ShonaLangaT6-3.jpeg",
+      "img/ShonaLangaT6-4.jpeg",
+      "img/ShonaLangaT6-5.jpeg"
     ]
   },
 
@@ -220,11 +219,11 @@ const projectsData = [
       en: "Reconstruction of a fire-damaged lodge, completed March 2015.",
       af: "Herbou van ’n lodge wat brandskade opgedoen het; voltooi Maart 2015."
     },
-    thumb: "img/Dikgatlhong - 1.jpeg",
+    thumb: "img/Dikgatlhong-1.jpeg",
     images: [
-      "img/Dikgatlhong - 1.jpeg",
-      "img/Dikgatlhong - 2.jpeg",
-      "img/Dikgatlhong - 3.jpeg"
+      "img/Dikgatlhong-1.jpeg",
+      "img/Dikgatlhong-2.jpeg",
+      "img/Dikgatlhong-3.jpeg"
     ]
   },
 
@@ -244,13 +243,13 @@ const projectsData = [
       en: "New private dwelling with generous living spaces and outdoor entertainment areas.",
       af: "Nuwe privaat woning met ruim leefareas en buite-vermaakruimtes."
     },
-    thumb: "img/Shona Langa M5 - 1.jpeg",
+    thumb: "img/ShonaLangaM5-1.jpeg",
     images: [
-      "img/Shona Langa M5 - 1.jpeg",
-      "img/Shona Langa M5 - 2.jpeg",
-      "img/Shona Langa M5 - 3.jpeg",
-      "img/Shona Langa M5 - 4.jpeg",
-      "img/Shona Langa M5 - 5.jpeg"
+      "img/ShonaLangaM5-1.jpeg",
+      "img/ShonaLangaM5-2.jpeg",
+      "img/ShonaLangaM5-3.jpeg",
+      "img/ShonaLangaM5-4.jpeg",
+      "img/ShonaLangaM5-5.jpeg"
     ]
   },
 
@@ -270,13 +269,13 @@ const projectsData = [
       en: "Bushveld dwelling combining stone, timber and large glazed openings.",
       af: "Bosveldwoning wat klip, hout en groot glasopeninge kombineer."
     },
-    thumb: "img/Shona Langa G12 - 1.jpeg",
+    thumb: "img/ShonaLangaG12-1.jpeg",
     images: [
-      "img/Shona Langa G12 - 1.jpeg",
-      "img/Shona Langa G12 - 2.jpeg",
-      "img/Shona Langa G12 - 3.jpeg",
-      "img/Shona Langa G12 - 4.jpeg",
-      "img/Shona Langa G12 - 5.jpeg"
+      "img/ShonaLangaG12-1.jpeg",
+      "img/ShonaLangaG12-2.jpeg",
+      "img/ShonaLangaG12-3.jpeg",
+      "img/ShonaLangaG12-4.jpeg",
+      "img/ShonaLangaG12-5.jpeg"
     ]
   },
 
@@ -296,13 +295,13 @@ const projectsData = [
       en: "New private dwelling with lodge-style architecture in the Mabalingwe area.",
       af: "Nuwe privaat woning met lodge-styl argitektuur in die Mabalingwe-gebied."
     },
-    thumb: "img/Boekenhoutplaat - 1.jpeg",
+    thumb: "img/Boekenhoutplaat-1.jpeg",
     images: [
-      "img/Boekenhoutplaat - 1.jpeg",
-      "img/Boekenhoutplaat - 2.jpeg",
-      "img/Boekenhoutplaat - 3.jpeg",
-      "img/Boekenhoutplaat - 4.jpeg",
-      "img/Boekenhoutplaat - 5.jpeg"
+      "img/Boekenhoutplaat-1.jpeg",
+      "img/Boekenhoutplaat-2.jpeg",
+      "img/Boekenhoutplaat-3.jpeg",
+      "img/Boekenhoutplaat-4.jpeg",
+      "img/Boekenhoutplaat-5.jpeg"
     ]
   },
 
@@ -322,13 +321,13 @@ const projectsData = [
       en: "Construction of a new farmhouse and associated structures.",
       af: "Bou van ’n nuwe plaashuis en verwante strukture."
     },
-    thumb: "img/Slipfontein - 1.jpeg",
+    thumb: "img/Slipfontein-1.jpeg",
     images: [
-      "img/Slipfontein - 1.jpeg",
-      "img/Slipfontein - 2.jpeg",
-      "img/Slipfontein - 3.jpeg",
-      "img/Slipfontein - 4.jpeg",
-      "img/Slipfontein - 5.jpeg"
+      "img/Slipfontein-1.jpeg",
+      "img/Slipfontein-2.jpeg",
+      "img/Slipfontein-3.jpeg",
+      "img/Slipfontein-4.jpeg",
+      "img/Slipfontein-5.jpeg"
     ]
   },
 
@@ -348,13 +347,13 @@ const projectsData = [
       en: "Replacement of traditional thatch with Harvey thatch tile roofing.",
       af: "Vervanging van tradisionele grasdak met Harvey gras-teëldakke."
     },
-    thumb: "img/Harvey Thatch - 1.jpeg",
+    thumb: "img/HarveyThatch-1.jpeg",
     images: [
-      "img/Harvey Thatch - 1.jpeg",
-      "img/Harvey Thatch - 2.jpeg",
-      "img/Harvey Thatch - 3.jpeg",
-      "img/Harvey Thatch - 4.jpeg",
-      "img/Harvey Thatch - 5.jpeg"
+      "img/HarveyThatch-1.jpeg",
+      "img/HarveyThatch-2.jpeg",
+      "img/HarveyThatch-3.jpeg",
+      "img/HarveyThatch-4.jpeg",
+      "img/HarveyThatch-5.jpeg"
     ]
   },
 
@@ -374,13 +373,13 @@ const projectsData = [
       en: "Labour supply and pole installation for a solar farm under strict project guidelines.",
       af: "Arbeidsvoorsiening en oprigting van pale vir ’n sonplaas volgens streng riglyne."
     },
-    thumb: "img/De Aar Solar - 1.jpeg",
+    thumb: "img/DeAarSolar-1.jpeg",
     images: [
-      "img/De Aar Solar - 1.jpeg",
-      "img/De Aar Solar - 2.jpeg",
-      "img/De Aar Solar - 3.jpeg",
-      "img/De Aar Solar - 4.jpeg",
-      "img/De Aar Solar - 5.jpeg"
+      "img/DeAarSolar-1.jpeg",
+      "img/DeAarSolar-2.jpeg",
+      "img/DeAarSolar-3.jpeg",
+      "img/DeAarSolar-4.jpeg",
+      "img/DeAarSolar-5.jpeg"
     ]
   },
 
