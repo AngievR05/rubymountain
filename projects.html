@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Projects – Ruby Mountain</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="css/styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Libre+Baskerville:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- Top strip + header are identical to index.html -->
+  <div class="top-strip">
+    <div class="top-strip__inner">
+      <div class="top-strip__left">
+        <a href="tel:0716020907" class="top-strip__item">
+          <span class="top-strip__label" data-i18n="top-phone-label">Phone</span>
+          <span class="top-strip__value">071 602 0907</span>
+        </a>
+        <a href="mailto:info@rubym.co.za" class="top-strip__item">
+          <span class="top-strip__label" data-i18n="top-email-label">Email</span>
+          <span class="top-strip__value">info@rubym.co.za</span>
+        </a>
+      </div>
+      <!-- <div class="top-strip__right">
+        <label for="lang-select" class="lang-label" data-i18n="language-label">Language</label>
+        <select id="lang-select" class="lang-select">
+          <option value="en">English</option>
+          <option value="af">Afrikaans</option>
+        </select>
+      </div> -->
+    </div>
+  </div>
+
+  <header class="header">
+    <div class="header__inner">
+      <a href="index.html" class="brand">
+        <img src="img/Logo.png" alt="Ruby Mountain logo" class="brand__logo">
+        <div class="brand__text">
+          <span class="brand__name">Ruby Mountain</span>
+          <span class="brand__tagline" data-i18n="brand-tagline">Construction &amp; Maintenance</span>
+        </div>
+      </a>
+      <button class="nav-toggle" aria-expanded="false" aria-label="Toggle navigation">☰</button>
+      <nav class="nav">
+        <ul class="nav__links">
+          <li><a href="index.html" class="nav__link" data-i18n="nav-home">Home</a></li>
+          <li><a href="about.html" class="nav__link" data-i18n="nav-about">About</a></li>
+          <li><a href="services.html" class="nav__link" data-i18n="nav-services">Services</a></li>
+          <li><a href="projects.html" class="nav__link nav__link--active" data-i18n="nav-projects">Projects</a></li>
+          <li><a href="contact.html" class="nav__link" data-i18n="nav-contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="section section--light">
+      <div class="section__inner section__inner--narrow">
+        <header class="section__header section__header--center">
+          <h1 data-i18n="projects-page-heading">Projects</h1>
+          <p data-i18n="projects-page-sub">
+            Explore our current and completed projects. Filter by type and click any project for more details and photos.
+          </p>
+        </header>
+
+        <!-- FILTERS -->
+<div class="projects-filter">
+  <button class="filter-btn filter-btn--active" data-filter="all" data-i18n="projects-filter-all">All</button>
+  <button class="filter-btn" data-filter="new-build" data-i18n="projects-filter-new">New dwellings</button>
+  <!-- <button class="filter-btn" data-filter="lodge" data-i18n="projects-filter-lodge">Lodges</button> -->
+  <button class="filter-btn" data-filter="renovation" data-i18n="projects-filter-reno">Alterations &amp; decks</button>
+  <!-- NEW: text-only / list projects -->
+  <button class="filter-btn" data-filter="listed" data-i18n="projects-filter-listed">More projects</button>
+</div>
+
+
+        <!-- GRID -->
+        <div id="projects-grid" class="card-grid card-grid--projects card-grid--projects-page"></div>
+
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer__inner">
+      <div class="footer__col">
+        <img src="img/Logo.png" alt="Ruby Mountain logo" class="brand__logo">
+        <h3>Ruby Mountain</h3>
+        <p data-i18n="footer-about">
+          Construction &amp; Maintenance based in Bela Bela, specialising in timber homes, lodges and renovations.
+        </p>
+      </div>
+      <div class="footer__col">
+        <h4 data-i18n="footer-contact-heading">Contact</h4>
+        <p>Plot 123, Noodhulp<br>Bela-Bela 0480, South Africa</p>
+        <p><a href="tel:0716020907">071 602 0907</a><br>
+           <a href="mailto:info@rubym.co.za">info@rubym.co.za</a></p>
+      </div>
+      <div class="footer__col">
+        <h4 data-i18n="footer-links-heading">Quick links</h4>
+        <ul class="footer__links">
+          <li><a href="services.html" data-i18n="footer-link-services">Services</a></li>
+          <li><a href="projects.html" data-i18n="footer-link-projects">Projects</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <span>© <span id="year"></span> Ruby Mountain Construction &amp; Maintenance</span>
+    </div>
+  </footer>
+
+  <!-- PROJECT DETAIL MODAL -->
+  <div class="modal" id="project-modal" aria-hidden="true">
+    <div class="modal__backdrop"></div>
+    <div class="modal__dialog" role="dialog" aria-modal="true">
+      <button class="modal__close" id="project-modal-close">×</button>
+      <div class="modal__content">
+        <h2 id="modal-title">Project title</h2>
+        <p class="modal__meta" id="modal-meta"></p>
+        <p id="modal-description"></p>
+        <div class="modal__gallery" id="modal-gallery">
+          <!-- images injected by JS -->
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- IMAGE LIGHTBOX -->
+<div class="image-lightbox" id="image-lightbox" aria-hidden="true">
+  <div class="image-lightbox__backdrop"></div>
+
+  <div class="image-lightbox__dialog">
+    <img id="lightbox-img" src="" alt="">
+    <button class="image-lightbox__close" id="lightbox-close">×</button>
+  </div>
+</div>
+
+
+<script src="js/lang.js"></script>
+<script src="js/projectsdata.js"></script>
+<script src="js/main.js"></script>
+
+
+</body>
+</html>

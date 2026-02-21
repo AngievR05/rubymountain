@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Ruby Mountain Construction & Maintenance</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="css/styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Libre+Baskerville:wght@400;700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+  <!-- TOP BAR -->
+  <div class="top-strip">
+    <div class="top-strip__inner">
+      <div class="top-strip__left">
+        <a href="tel:0716020907" class="top-strip__item">
+          <span class="top-strip__label" data-i18n="top-phone-label">Phone</span>
+          <span class="top-strip__value">071 602 0907</span>
+        </a>
+        <a href="mailto:info@rubym.co.za" class="top-strip__item">
+          <span class="top-strip__label" data-i18n="top-email-label">Email</span>
+          <span class="top-strip__value">info@rubym.co.za</span>
+        </a>
+      </div>
+      <!-- <div class="top-strip__right">
+        <label for="lang-select" class="lang-label" data-i18n="language-label">Language</label>
+        <select id="lang-select" class="lang-select">
+          <option value="en">English</option>
+          <option value="af">Afrikaans</option>
+        </select>
+      </div> -->
+    </div>
+  </div>
+
+  <!-- MAIN HEADER -->
+  <header class="header">
+    <div class="header__inner">
+      <a href="index.html" class="brand">
+        <img src="img/Logo.png" alt="Ruby Mountain logo" class="brand__logo">
+        <div class="brand__text">
+          <span class="brand__name">Ruby Mountain</span>
+          <span class="brand__tagline" data-i18n="brand-tagline">Construction &amp; Maintenance</span>
+        </div>
+      </a>
+
+      <button class="nav-toggle" aria-expanded="false" aria-label="Toggle navigation">
+        ☰
+      </button>
+
+      <nav class="nav">
+        <ul class="nav__links">
+          <li><a href="index.html" class="nav__link nav__link--active" data-i18n="nav-home">Home</a></li>
+          <li><a href="about.html" class="nav__link" data-i18n="nav-about">About</a></li>
+          <li><a href="services.html" class="nav__link" data-i18n="nav-services">Services</a></li>
+          <li><a href="projects.html" class="nav__link" data-i18n="nav-projects">Projects</a></li>
+          <li><a href="contact.html" class="nav__link" data-i18n="nav-contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- HERO -->
+    <section class="hero">
+      <div class="hero__media" role="img"
+     aria-label="Timber lodge built by Ruby Mountain Construction & Maintenance "
+     style="
+       background-image:
+         linear-gradient(to right, rgba(28,20,14,0.6), rgba(28,20,14,0.1)),
+         url('img/Mabalingwe\ 1002\ -\ 1.jpg');
+       background-size: cover;
+       background-position: center;
+     ">
+</div>
+
+      <div class="hero__content">
+        <h1 data-i18n="hero-heading">Timber homes and lodges built to last.</h1>
+        <p data-i18n="hero-sub">
+          Ruby Mountain Construction & Maintenance specialises in timber construction, renovations and maintenance across Bela Bela and surrounds.
+        </p>
+        <div class="hero__actions">
+          <!-- <a href="contact.html" class="btn btn--primary" data-i18n="hero-cta-primary">Request a quote</a> -->
+          <a href="projects.html" class="btn btn--primary" data-i18n="hero-cta-secondary">View recent projects</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT / STATS -->
+    <section class="section section--light">
+      <div class="section__inner section__inner--split">
+        <div class="section__block">
+          <h2 data-i18n="about-heading">About Ruby Mountain Construction & Maintenance</h2>
+          <p data-i18n="about-body">
+            With over 20 years of industry experience, Ruby Mountain Construction &amp; Maintenance
+            delivers new builds, alterations and ongoing maintenance for lodges and private homes.
+          </p>
+          <p data-i18n="about-body-2">
+            From site preparation to final finishes, we manage the full process with a focus on quality
+            workmanship and honest communication.
+          </p>
+        </div>
+        <div class="section__block stats">
+          <div class="stat">
+            <span class="stat__value">20+</span>
+            <span class="stat__label" data-i18n="stat-years">years experience</span>
+          </div>
+          <div class="stat">
+            <span class="stat__value">100+</span>
+            <span class="stat__label" data-i18n="stat-projects">completed projects</span>
+          </div>
+          <div class="stat">
+            <span class="stat__value">95%</span>
+            <span class="stat__label" data-i18n="stat-repeat">repeat &amp; referral work</span>
+          </div>
+          <div class="stat">
+            <span class="stat__value">NHBRC</span>
+            <span class="stat__label" data-i18n="stat-registered">registered builder</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SERVICES AS CARDS -->
+    <section class="section">
+  <div class="section__inner section__inner--narrow">
+    <header class="section__header">
+      <h2 data-i18n="services-heading">What we do</h2>
+      <p data-i18n="services-sub">
+        From new timber lodges to general maintenance, Ruby Mountain Construction & Maintenance covers the full scope of construction services.
+      </p>
+    </header>
+
+    <div class="card-grid card-grid--services">
+
+      <article class="card card--service card--ornamented">
+        <img src="img/ornaments/moer.png" alt="" class="card__ornament tl">
+        <img src="img/ornaments/moer.png" alt="" class="card__ornament tr">
+        <img src="img/ornaments/moer.png" alt="" class="card__ornament br">
+        <img src="img/ornaments/moer.png" alt="" class="card__ornament bl">
+
+        <div class="card__content">
+          <h3 data-i18n="service-construction-title">Construction</h3>
+        </div>
+      </article>
+
+      <article class="card card--service card--ornamented">
+        <img src="img/ornaments/moer.png" alt="" class="card__ornament tl">
+        <img src="img/ornaments/moer.png" alt="" class="card__ornament tr">
+        <img src="img/ornaments/moer.png" alt="" class="card__ornament br">
+        <img src="img/ornaments/moer.png" alt="" class="card__ornament bl">
+
+        <div class="card__content">
+          <h3 data-i18n="service-alterations-title">Building alterations</h3>
+        </div>
+      </article>
+
+      <article class="card card--service card--ornamented">
+        <img src="img/ornaments/moer.png" alt="" class="card__ornament tl">
+        <img src="img/ornaments/moer.png" alt="" class="card__ornament tr">
+        <img src="img/ornaments/moer.png" alt="" class="card__ornament br">
+        <img src="img/ornaments/moer.png" alt="" class="card__ornament bl">
+
+        <div class="card__content">
+          <h3 data-i18n="service-civil-title">Civil works</h3>
+        </div>
+      </article>
+
+      <article class="card card--service card--ornamented">
+        <img src="img/ornaments/moer.png" alt="" class="card__ornament tl">
+        <img src="img/ornaments/moer.png" alt="" class="card__ornament tr">
+        <img src="img/ornaments/moer.png" alt="" class="card__ornament br">
+        <img src="img/ornaments/moer.png" alt="" class="card__ornament bl">
+
+        <div class="card__content">
+          <h3 data-i18n="service-project-title">Project management</h3>
+        </div>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+
+<!-- RECENT PROJECTS PREVIEW -->
+<section class="section section--projects-intro">
+  <div class="section__inner section__inner--narrow">
+
+    <header class="section__header section__header--projects">
+      <h2 data-i18n="home-projects-heading">Recent projects</h2>
+      <p data-i18n="home-projects-sub">
+        A selection of current and completed work. View the full catalogue on the projects page.
+      </p>
+    </header>
+
+    <div id="home-projects" class="card-grid card-grid--projects">
+      <!-- populated by JS -->
+    </div>
+
+    <div class="section__footer">
+      <a href="projects.html" class="btn btn--text" data-i18n="home-projects-link">
+        View all projects →
+      </a>
+    </div>
+
+  </div>
+</section>
+
+
+    <!-- CTA -->
+    <section class="section cta">
+      <div class="section__inner cta__inner">
+        <div>
+          <h2 data-i18n="cta-heading">Ready to start your project?</h2>
+          <p data-i18n="cta-body">
+            Share your plans and we’ll arrange a site visit to discuss ideas, budgets and timelines.
+          </p>
+        </div>
+        <a href="contact.html" class="btn btn--primary" data-i18n="cta-button">Contact us</a>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER (shared across pages) -->
+  <footer class="footer">
+    <div class="footer__inner">
+      <div class="footer__col">
+        <img src="img/Logo.png" alt="Ruby Mountain logo" class="brand__logo">
+        <h3>Ruby Mountain</h3>
+        <p data-i18n="footer-about">
+          Construction &amp; Maintenance based in Bela Bela, specialising in timber homes, lodges and renovations.
+        </p>
+
+      </div>
+      <div class="footer__col">
+        <h4 data-i18n="footer-contact-heading">Contact</h4>
+        <p>Plot 123, Noodhulp<br>Bela-Bela 0480, South Africa</p>
+        <p><a href="tel:0716020907">071 602 0907</a><br>
+           <a href="mailto:info@rubym.co.za">info@rubym.co.za</a></p>
+      </div>
+      <div class="footer__col">
+        <h4 data-i18n="footer-links-heading">Quick links</h4>
+        <ul class="footer__links">
+          <li><a href="services.html" data-i18n="footer-link-services">Services</a></li>
+          <li><a href="projects.html" data-i18n="footer-link-projects">Projects</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <span>© <span id="year"></span> Ruby Mountain Construction &amp; Maintenance</span>
+    </div>
+  </footer>
+
+  <script src="js/projectsdata.js"></script>
+  <script src="js/lang.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
+

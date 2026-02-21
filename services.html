@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Services – Ruby Mountain</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="css/styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Libre+Baskerville:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- TOP BAR -->
+  <div class="top-strip">
+    <div class="top-strip__inner">
+      <div class="top-strip__left">
+        <a href="tel:0716020907" class="top-strip__item">
+          <span class="top-strip__label" data-i18n="top-phone-label">Phone</span>
+          <span class="top-strip__value">071 602 0907</span>
+        </a>
+        <a href="mailto:info@rubym.co.za" class="top-strip__item">
+          <span class="top-strip__label" data-i18n="top-email-label">Email</span>
+          <span class="top-strip__value">info@rubym.co.za</span>
+        </a>
+      </div>
+      <!-- <div class="top-strip__right">
+        <label for="lang-select" class="lang-label" data-i18n="language-label">Language</label>
+        <select id="lang-select" class="lang-select">
+          <option value="en">English</option>
+          <option value="af">Afrikaans</option>
+        </select>
+      </div> -->
+    </div>
+  </div>
+
+  <header class="header">
+    <div class="header__inner">
+      <a href="index.html" class="brand">
+        <img src="img/Logo.png" alt="Ruby Mountain logo" class="brand__logo">
+        <div class="brand__text">
+          <span class="brand__name">Ruby Mountain</span>
+          <span class="brand__tagline" data-i18n="brand-tagline">Construction &amp; Maintenance</span>
+        </div>
+      </a>
+      <button class="nav-toggle" aria-expanded="false" aria-label="Toggle navigation">☰</button>
+      <nav class="nav">
+        <ul class="nav__links">
+          <li><a href="index.html" class="nav__link" data-i18n="nav-home">Home</a></li>
+          <li><a href="about.html" class="nav__link" data-i18n="nav-about">About</a></li>
+          <li><a href="services.html" class="nav__link nav__link--active" data-i18n="nav-services">Services</a></li>
+          <li><a href="projects.html" class="nav__link" data-i18n="nav-projects">Projects</a></li>
+          <li><a href="contact.html" class="nav__link" data-i18n="nav-contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- MAIN SERVICES GRID -->
+<!-- SERVICES INTRO -->
+    <section class="section section--light">
+      <div class="section__inner section__inner--narrow">
+        <header class="section__header section__header--center">
+          <h1 data-i18n="services-page-heading">Construction services</h1>
+          <p data-i18n="services-page-intro">
+            Ruby Mountain Construction & Maintenance offers a complete range of construction and maintenance services
+            for private homes, lodges and commercial projects.
+          </p>
+        </header>
+
+        <!-- SERVICES GRID -->
+        <div class="card-grid card-grid--services">
+
+          <!-- Construction -->
+          <article class="card card--service card--ornamented">
+            <img src="img/ornaments/moer.png" alt="" class="card__ornament tl">
+            <img src="img/ornaments/moer.png" alt="" class="card__ornament tr">
+            <img src="img/ornaments/moer.png" alt="" class="card__ornament br">
+            <img src="img/ornaments/moer.png" alt="" class="card__ornament bl">
+
+            <div class="card__content">
+              <h3 data-i18n="service-construction-title">Construction</h3>
+              <p data-i18n="service-construction-body">
+                Turn-key construction of new private homes, lodges and outbuildings,
+                including foundations, structure, roofing and finishes.
+              </p>
+            </div>
+          </article>
+
+          <!-- Alterations -->
+          <article class="card card--service card--ornamented">
+            <img src="img/ornaments/moer.png" alt="" class="card__ornament tl">
+            <img src="img/ornaments/moer.png" alt="" class="card__ornament tr">
+            <img src="img/ornaments/moer.png" alt="" class="card__ornament br">
+            <img src="img/ornaments/moer.png" alt="" class="card__ornament bl">
+
+            <div class="card__content">
+              <h3 data-i18n="service-alterations-title">Building alterations</h3>
+              <p data-i18n="service-alterations-body">
+                Additions, extensions and layout changes that enhance existing buildings
+                while respecting structure and style.
+              </p>
+            </div>
+          </article>
+
+          <!-- Civil -->
+          <article class="card card--service card--ornamented">
+            <img src="img/ornaments/moer.png" alt="" class="card__ornament tl">
+            <img src="img/ornaments/moer.png" alt="" class="card__ornament tr">
+            <img src="img/ornaments/moer.png" alt="" class="card__ornament br">
+            <img src="img/ornaments/moer.png" alt="" class="card__ornament bl">
+
+            <div class="card__content">
+              <h3 data-i18n="service-civil-title">Civil works</h3>
+              <p data-i18n="service-civil-body">
+                Earthworks, foundations, retaining walls, paving and stormwater
+                management solutions.
+              </p>
+            </div>
+          </article>
+
+          <!-- Project management -->
+          <article class="card card--service card--ornamented">
+            <img src="img/ornaments/moer.png" alt="" class="card__ornament tl">
+            <img src="img/ornaments/moer.png" alt="" class="card__ornament tr">
+            <img src="img/ornaments/moer.png" alt="" class="card__ornament br">
+            <img src="img/ornaments/moer.png" alt="" class="card__ornament bl">
+
+            <div class="card__content">
+              <h3 data-i18n="service-project-title">Project management</h3>
+              <p data-i18n="service-project-body">
+                Planning, scheduling and coordination of contractors, timelines
+                and budgets from start to finish.
+              </p>
+            </div>
+          </article>
+
+          <!-- Maintenance -->
+          <article class="card card--service card--ornamented">
+            <img src="img/ornaments/moer.png" alt="" class="card__ornament tl">
+            <img src="img/ornaments/moer.png" alt="" class="card__ornament tr">
+            <img src="img/ornaments/moer.png" alt="" class="card__ornament br">
+            <img src="img/ornaments/moer.png" alt="" class="card__ornament bl">
+
+            <div class="card__content">
+              <h3 data-i18n="service-maintenance-title">General maintenance</h3>
+              <p data-i18n="service-maintenance-body">
+                Repairs, timber treatment, painting, waterproofing and ongoing
+                maintenance to protect your property.
+              </p>
+            </div>
+          </article>
+
+          <!-- Rental -->
+          <article class="card card--service card--ornamented">
+            <img src="img/ornaments/moer.png" alt="" class="card__ornament tl">
+            <img src="img/ornaments/moer.png" alt="" class="card__ornament tr">
+            <img src="img/ornaments/moer.png" alt="" class="card__ornament br">
+            <img src="img/ornaments/moer.png" alt="" class="card__ornament bl">
+
+            <div class="card__content">
+              <h3 data-i18n="service-rental-title">Equipment &amp; vehicle rental</h3>
+              <p data-i18n="service-rental-body">
+                Rental of construction equipment and vehicles, with experienced
+                operators where required.
+              </p>
+            </div>
+          </article>
+
+          <!-- Labour -->
+          <article class="card card--service card--ornamented">
+            <img src="img/ornaments/moer.png" alt="" class="card__ornament tl">
+            <img src="img/ornaments/moer.png" alt="" class="card__ornament tr">
+            <img src="img/ornaments/moer.png" alt="" class="card__ornament br">
+            <img src="img/ornaments/moer.png" alt="" class="card__ornament bl">
+
+            <div class="card__content">
+              <h3 data-i18n="service-labour-title">Supply of labour</h3>
+              <p data-i18n="service-labour-body">
+                Skilled construction teams available for short-term and long-term
+                project requirements.
+              </p>
+            </div>
+          </article>
+
+          <!-- Steel -->
+          <article class="card card--service card--ornamented">
+            <img src="img/ornaments/moer.png" alt="" class="card__ornament tl">
+            <img src="img/ornaments/moer.png" alt="" class="card__ornament tr">
+            <img src="img/ornaments/moer.png" alt="" class="card__ornament br">
+            <img src="img/ornaments/moer.png" alt="" class="card__ornament bl">
+
+            <div class="card__content">
+              <h3 data-i18n="service-steel-title">Steel structures &amp; storage units</h3>
+              <p data-i18n="service-steel-body">
+                Design and construction of steel structures, sheds and secure
+                storage units.
+              </p>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+
+    <!-- PROFESSIONAL SERVICES SECTION -->
+    <section class="section">
+      <div class="section__inner section__inner--narrow">
+        <div class="section__block">
+          <h2 data-i18n="services-prof-heading">Professional services</h2>
+          <p data-i18n="services-prof-intro">
+            We work in conjunction with experienced professionals to ensure that every project
+            meets structural, safety and insurance requirements.
+          </p>
+        </div>
+        <div class="section__block">
+          <div class="card">
+            <p><strong>Civil and structural engineer:</strong><br>Jan Fanoy (Fanroy Consulting, Pretoria)</p>
+            <p><strong>Quantity surveyors:</strong><br>Callie Burger (CSB Consultants, Pretoria)<br>Willie van Oudtshoorn (De Leeuw, Pretoria)</p>
+            <p><strong>Architects:</strong><br>Rhys Pritchard (Pritchard Enterprises, Pretoria)</p>
+            <p><strong>Loss adjustor:</strong><br>Kobus Bezuidenhout (Claimsguard, Pretoria)</p>
+            <p><strong>Hire equipment:</strong><br>Talisman Bela Bela</p>
+            <p><strong>Assessor:</strong><br>Jakes Meiring (Santam, Pretoria)</p>
+            <p data-i18n="services-prof-santam">
+              Ruby Mountain Construction & Maintenance is an approved service provider for Santam Ltd.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer__inner">
+      <div class="footer__col">
+        <img src="img/Logo.png" alt="Ruby Mountain logo" class="brand__logo">
+        <h3>Ruby Mountain</h3>
+        <p data-i18n="footer-about">
+          Construction &amp; Maintenance based in Bela Bela, specialising in timber homes, lodges and renovations.
+        </p>
+      </div>
+      <div class="footer__col">
+        <h4 data-i18n="footer-contact-heading">Contact</h4>
+        <p>Plot 123, Noodhulp<br>Bela-Bela 0480, South Africa</p>
+        <p><a href="tel:0716020907">071 602 0907</a><br>
+           <a href="mailto:info@rubym.co.za">info@rubym.co.za</a></p>
+      </div>
+      <div class="footer__col">
+        <h4 data-i18n="footer-links-heading">Quick links</h4>
+        <ul class="footer__links">
+          <li><a href="services.html" data-i18n="footer-link-services">Services</a></li>
+          <li><a href="projects.html" data-i18n="footer-link-projects">Projects</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <span>© <span id="year"></span> Ruby Mountain Construction &amp; Maintenance</span>
+    </div>
+  </footer>
+
+  <script src="js/lang.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
