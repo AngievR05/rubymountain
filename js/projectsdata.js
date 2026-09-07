@@ -5,21 +5,294 @@ const projectsData = [
   // ========================
   // FEATURED PROJECTS (WITH IMAGES)
   // ========================
+
+  {
+    id: "mabalingwe-371",
+    type: "new-build",
+    categoryKey: {
+      en: "Completed private dwelling"
+    },
+    title: {
+      en: "Mabalingwe 371"
+    },
+    location: "Mabalingwe",
+    description: {
+      en: "Completed bushveld home with brick and stone finishes, open living areas and covered outdoor spaces."
+    },
+    thumb: "img/Mabalingwe371-44.jpeg",
+    images: [
+      "img/Mabalingwe371-1.jpeg",
+      "img/Mabalingwe371-2.jpeg",
+      "img/Mabalingwe371-3.jpeg",
+      "img/Mabalingwe371-4.jpeg",
+      "img/Mabalingwe371-5.jpeg",
+      "img/Mabalingwe371-6.jpeg",
+      "img/Mabalingwe371-7.jpeg",
+      "img/Mabalingwe371-8.jpeg",
+      "img/Mabalingwe371-9.jpeg",
+      "img/Mabalingwe371-10.jpeg",
+      "img/Mabalingwe371-11.jpeg",
+      "img/Mabalingwe371-12.jpeg",
+      "img/Mabalingwe371-13.jpeg",
+      "img/Mabalingwe371-14.jpeg",
+      "img/Mabalingwe371-15.jpeg",
+      "img/Mabalingwe371-16.jpeg",
+      "img/Mabalingwe371-17.jpeg",
+      "img/Mabalingwe371-18.jpeg",
+      "img/Mabalingwe371-19.jpeg",
+      "img/Mabalingwe371-20.jpeg",
+      "img/Mabalingwe371-21.jpeg",
+      "img/Mabalingwe371-22.jpeg",
+      "img/Mabalingwe371-23.jpeg",
+      "img/Mabalingwe371-24.jpeg",
+      "img/Mabalingwe371-25.jpeg",
+      "img/Mabalingwe371-26.jpeg",
+      "img/Mabalingwe371-27.jpeg",
+      "img/Mabalingwe371-28.jpeg",
+      "img/Mabalingwe371-29.jpeg",
+      "img/Mabalingwe371-30.jpeg",
+      "img/Mabalingwe371-31.jpeg",
+      "img/Mabalingwe371-32.jpeg",
+      "img/Mabalingwe371-33.jpeg",
+      "img/Mabalingwe371-34.jpeg",
+      "img/Mabalingwe371-35.jpeg",
+      "img/Mabalingwe371-36.jpeg",
+      "img/Mabalingwe371-37.jpeg",
+      "img/Mabalingwe371-38.jpeg",
+      "img/Mabalingwe371-39.jpeg",
+      "img/Mabalingwe371-40.jpeg",
+      "img/Mabalingwe371-41.jpeg",
+      "img/Mabalingwe371-42.jpeg",
+      "img/Mabalingwe371-43.jpeg",
+      "img/Mabalingwe371-44.jpeg",
+      "img/Mabalingwe371-45.jpeg",
+      "img/Mabalingwe371-46.jpeg",
+      "img/Mabalingwe371-47.jpeg",
+      "img/Mabalingwe371-48.jpeg",
+      "img/Mabalingwe371-49.jpeg",
+      "img/Mabalingwe371-50.jpeg",
+      "img/Mabalingwe371-51.jpeg",
+      "img/Mabalingwe371-52.jpeg",
+      "img/Mabalingwe371-53.jpeg",
+      "img/Mabalingwe371-54.jpeg",
+      "img/Mabalingwe371-55.jpeg",
+      "img/Mabalingwe371-56.jpeg",
+      "img/Mabalingwe371-57.jpeg",
+      "img/Mabalingwe371-58.jpeg",
+      "img/Mabalingwe371-59.jpeg",
+      "img/Mabalingwe371-60.jpeg",
+      "img/Mabalingwe371-61.jpeg",
+      "img/Mabalingwe371-62.jpeg",
+      "img/Mabalingwe371-63.jpeg",
+      "img/Mabalingwe371-64.jpeg",
+      "img/Mabalingwe371-65.jpeg",
+      "img/Mabalingwe371-66.jpeg",
+      "img/Mabalingwe371-67.jpeg",
+      "img/Mabalingwe371-68.jpeg",
+      "img/Mabalingwe371-69.jpeg",
+      "img/Mabalingwe371-70.jpeg",
+      "img/Mabalingwe371-71.jpeg",
+      "img/Mabalingwe371-72.jpeg",
+      "img/Mabalingwe371-73.jpeg",
+      "img/Mabalingwe371-74.jpeg",
+      "img/Mabalingwe371-75.jpeg",
+      "img/Mabalingwe371-76.jpeg",
+      "img/Mabalingwe371-77.jpeg",
+      "img/Mabalingwe371-78.jpeg",
+      "img/Mabalingwe371-79.jpeg",
+      "img/Mabalingwe371-80.jpeg",
+      "img/Mabalingwe371-81.jpeg",
+      "img/Mabalingwe371-82.jpeg",
+      "img/Mabalingwe371-83.jpeg",
+      "img/Mabalingwe371-84.jpeg",
+      "img/Mabalingwe371-85.jpeg",
+      "img/Mabalingwe371-86.jpeg",
+      "img/Mabalingwe371-87.jpeg",
+      "img/Mabalingwe371-88.jpeg",
+      "img/Mabalingwe371-89.jpeg",
+      "img/Mabalingwe371-90.jpeg"
+    ]
+  },
+
+  {
+    id: "mabalingwe-610",
+    type: "new-build",
+    categoryKey: {
+      en: "Completed private dwelling"
+    },
+    title: {
+      en: "Mabalingwe 610"
+    },
+    location: "Mabalingwe",
+    description: {
+      en: "Completed double-storey bushveld home with comfortable bedrooms, lodge-style finishes and outdoor balconies."
+    },
+    thumb: "img/Mabalingwe610-60.jpeg",
+    images: [
+      "img/Mabalingwe610-1.jpeg",
+      "img/Mabalingwe610-2.jpeg",
+      "img/Mabalingwe610-3.jpeg",
+      "img/Mabalingwe610-4.jpeg",
+      "img/Mabalingwe610-5.jpeg",
+      "img/Mabalingwe610-6.jpeg",
+      "img/Mabalingwe610-7.jpeg",
+      "img/Mabalingwe610-8.jpeg",
+      "img/Mabalingwe610-9.jpeg",
+      "img/Mabalingwe610-10.jpeg",
+      "img/Mabalingwe610-11.jpeg",
+      "img/Mabalingwe610-12.jpeg",
+      "img/Mabalingwe610-13.jpeg",
+      "img/Mabalingwe610-14.jpeg",
+      "img/Mabalingwe610-15.jpeg",
+      "img/Mabalingwe610-16.jpeg",
+      "img/Mabalingwe610-17.jpeg",
+      "img/Mabalingwe610-18.jpeg",
+      "img/Mabalingwe610-19.jpeg",
+      "img/Mabalingwe610-20.jpeg",
+      "img/Mabalingwe610-21.jpeg",
+      "img/Mabalingwe610-22.jpeg",
+      "img/Mabalingwe610-23.jpeg",
+      "img/Mabalingwe610-24.jpeg",
+      "img/Mabalingwe610-25.jpeg",
+      "img/Mabalingwe610-26.jpeg",
+      "img/Mabalingwe610-27.jpeg",
+      "img/Mabalingwe610-28.jpeg",
+      "img/Mabalingwe610-29.jpeg",
+      "img/Mabalingwe610-30.jpeg",
+      "img/Mabalingwe610-31.jpeg",
+      "img/Mabalingwe610-32.jpeg",
+      "img/Mabalingwe610-33.jpeg",
+      "img/Mabalingwe610-34.jpeg",
+      "img/Mabalingwe610-35.jpeg",
+      "img/Mabalingwe610-36.jpeg",
+      "img/Mabalingwe610-37.jpeg",
+      "img/Mabalingwe610-38.jpeg",
+      "img/Mabalingwe610-39.jpeg",
+      "img/Mabalingwe610-40.jpeg",
+      "img/Mabalingwe610-41.jpeg",
+      "img/Mabalingwe610-42.jpeg",
+      "img/Mabalingwe610-43.jpeg",
+      "img/Mabalingwe610-44.jpeg",
+      "img/Mabalingwe610-45.jpeg",
+      "img/Mabalingwe610-46.jpeg",
+      "img/Mabalingwe610-47.jpeg",
+      "img/Mabalingwe610-48.jpeg",
+      "img/Mabalingwe610-49.jpeg",
+      "img/Mabalingwe610-50.jpeg",
+      "img/Mabalingwe610-51.jpeg",
+      "img/Mabalingwe610-52.jpeg",
+      "img/Mabalingwe610-53.jpeg",
+      "img/Mabalingwe610-54.jpeg",
+      "img/Mabalingwe610-55.jpeg",
+      "img/Mabalingwe610-56.jpeg",
+      "img/Mabalingwe610-57.jpeg",
+      "img/Mabalingwe610-58.jpeg",
+      "img/Mabalingwe610-59.jpeg",
+      "img/Mabalingwe610-60.jpeg"
+    ]
+  },
+
+  {
+    id: "mabalingwe-620",
+    type: "new-build",
+    categoryKey: {
+      en: "Completed private dwelling"
+    },
+    title: {
+      en: "Mabalingwe 620"
+    },
+    location: "Mabalingwe",
+    description: {
+      en: "Completed bushveld home with open living spaces, modern bedrooms and bathrooms, a pool deck and wide views."
+    },
+    thumb: "img/Mabalingwe620-26.jpeg",
+    images: [
+      "img/Mabalingwe620-1.jpeg",
+      "img/Mabalingwe620-2.jpeg",
+      "img/Mabalingwe620-3.jpeg",
+      "img/Mabalingwe620-4.jpeg",
+      "img/Mabalingwe620-5.jpeg",
+      "img/Mabalingwe620-6.jpeg",
+      "img/Mabalingwe620-7.jpeg",
+      "img/Mabalingwe620-8.jpeg",
+      "img/Mabalingwe620-9.jpeg",
+      "img/Mabalingwe620-10.jpeg",
+      "img/Mabalingwe620-11.jpeg",
+      "img/Mabalingwe620-12.jpeg",
+      "img/Mabalingwe620-13.jpeg",
+      "img/Mabalingwe620-14.jpeg",
+      "img/Mabalingwe620-15.jpeg",
+      "img/Mabalingwe620-16.jpeg",
+      "img/Mabalingwe620-17.jpeg",
+      "img/Mabalingwe620-18.jpeg",
+      "img/Mabalingwe620-19.jpeg",
+      "img/Mabalingwe620-20.jpeg",
+      "img/Mabalingwe620-21.jpeg",
+      "img/Mabalingwe620-22.jpeg",
+      "img/Mabalingwe620-23.jpeg",
+      "img/Mabalingwe620-24.jpeg",
+      "img/Mabalingwe620-25.jpeg",
+      "img/Mabalingwe620-26.jpeg",
+      "img/Mabalingwe620-27.jpeg",
+      "img/Mabalingwe620-28.jpeg",
+      "img/Mabalingwe620-29.jpeg",
+      "img/Mabalingwe620-30.jpeg",
+      "img/Mabalingwe620-31.jpeg",
+      "img/Mabalingwe620-32.jpeg",
+      "img/Mabalingwe620-33.jpeg",
+      "img/Mabalingwe620-34.jpeg",
+      "img/Mabalingwe620-35.jpeg",
+      "img/Mabalingwe620-36.jpeg",
+      "img/Mabalingwe620-37.jpeg",
+      "img/Mabalingwe620-38.jpeg",
+      "img/Mabalingwe620-39.jpeg",
+      "img/Mabalingwe620-40.jpeg",
+      "img/Mabalingwe620-41.jpeg",
+      "img/Mabalingwe620-42.jpeg",
+      "img/Mabalingwe620-43.jpeg",
+      "img/Mabalingwe620-44.jpeg",
+      "img/Mabalingwe620-45.jpeg",
+      "img/Mabalingwe620-46.jpeg",
+      "img/Mabalingwe620-47.jpeg",
+      "img/Mabalingwe620-48.jpeg",
+      "img/Mabalingwe620-49.jpeg",
+      "img/Mabalingwe620-50.jpeg",
+      "img/Mabalingwe620-51.jpeg",
+      "img/Mabalingwe620-52.jpeg",
+      "img/Mabalingwe620-53.jpeg",
+      "img/Mabalingwe620-54.jpeg",
+      "img/Mabalingwe620-55.jpeg",
+      "img/Mabalingwe620-56.jpeg",
+      "img/Mabalingwe620-57.jpeg",
+      "img/Mabalingwe620-58.jpeg",
+      "img/Mabalingwe620-59.jpeg",
+      "img/Mabalingwe620-60.jpeg",
+      "img/Mabalingwe620-61.jpeg",
+      "img/Mabalingwe620-62.jpeg",
+      "img/Mabalingwe620-63.jpeg",
+      "img/Mabalingwe620-64.jpeg",
+      "img/Mabalingwe620-65.jpeg",
+      "img/Mabalingwe620-66.jpeg",
+      "img/Mabalingwe620-67.jpeg",
+      "img/Mabalingwe620-68.jpeg",
+      "img/Mabalingwe620-69.jpeg",
+      "img/Mabalingwe620-70.jpeg",
+      "img/Mabalingwe620-71.jpeg"
+    ]
+  },
+
 {
   id: "mabalingwe1002",
   type: "new-build",
   categoryKey: {
-    en: "Luxury holiday home",
-    af: "Luukse vakansiehuis"
+    en: "Luxury holiday home"
   },
   title: {
-    en: "Mabalingwe 1002",
-    af: "Mabalingwe 1002"
+    en: "Mabalingwe 1002"
   },
   location: "Bela Bela District",
   description: {
-    en: "Luxury vacation home featuring 6 bedrooms with en-suite bathrooms, designed for comfortable large-group stays with expansive glazing, elevated views, and high-quality modern finishes.",
-    af: "Luukse vakansiehuis met 5 slaapkamers en 7 badkamers, ontwerp vir gemaklike grootgroep-verblyf met groot glasoppervlaktes, verhoogde uitsigte en moderne hoëgehalte afwerkings."
+    en: "Six-bedroom holiday home with en-suite bathrooms, large windows, bushveld views and modern finishes."
   },
   thumb: "img/Mabalingwe1002-1.jpg",
   images: [
@@ -45,17 +318,14 @@ const projectsData = [
   id: "mabula-entertainment-centre",
   type: "new-build",
   categoryKey: {
-    en: "Commercial development",
-    af: "Kommersiële ontwikkeling"
+    en: "Commercial development"
   },
   title: {
-    en: "Mabula Entertainment Centre",
-    af: "Mabula Vermaaklikheidsentrum"
+    en: "Mabula Entertainment Centre"
   },
   location: "Bela Bela District",
   description: {
-    en: "Purpose-built entertainment centre featuring modern brick architecture, expansive covered walkways, and elevated viewing areas designed to support high visitor volumes within the Mabula area.",
-    af: "Doelgeboude vermaaklikheidsentrum met moderne baksteen-argitektuur, ruim onderdak loopareas en verhoogde uitkykpunte, ontwerp om groot besoekersgetalle in die Mabula-omgewing te ondersteun."
+    en: "Entertainment centre with brick finishes, covered walkways and raised viewing areas."
   },
   thumb: "img/MabulaEntertainmentCentre-1.jpg",
   images: [
@@ -78,17 +348,14 @@ const projectsData = [
     id: "shona-langa-v11",
     type: "new-build",
     categoryKey: {
-      en: "New private dwelling",
-      af: "Nuwe privaat woning"
+      en: "New private dwelling"
     },
     title: {
-      en: "Shona Langa V11",
-      af: "Shona Langa V11"
+      en: "Shona Langa V11"
     },
     location: "Bela Bela District",
     description: {
-      en: "New private dwelling in the Shona Langa nature estate, from foundations through to final finishes.",
-      af: "Nuwe privaat woning in die Shona Langa natuurlandgoed, van fondasies tot finale afwerkings."
+      en: "New private home built from the foundations through to the final finishes."
     },
     thumb: "img/ShonaLangaV11-1.jpeg",
     images: [
@@ -104,17 +371,14 @@ const projectsData = [
     id: "mokaikai-a",
     type: "new-build",
     categoryKey: {
-      en: "New private dwelling",
-      af: "Nuwe privaat woning"
+      en: "New private dwelling"
     },
     title: {
-      en: "Mokaikai - Bushveld Home",
-      af: "Mokaikai - Bosveldwoning"
+      en: "Mokaikai - Bushveld Home"
     },
     location: "Mokaikai",
     description: {
-      en: "Bushveld-style dwelling with thatch, brickwork and lodge-inspired detailing.",
-      af: "Bosveldwoning met grasdak, baksteenwerk en lodge-geïnspireerde afwerkings."
+      en: "Bushveld home with a thatch roof, brickwork and lodge-style details."
     },
     thumb: "img/MokaikaiA-1.jpeg",
     images: [
@@ -130,17 +394,14 @@ const projectsData = [
     id: "mokaikai-b",
     type: "new-build",
     categoryKey: {
-      en: "New private dwelling",
-      af: "Nuwe privaat woning"
+      en: "New private dwelling"
     },
     title: {
-      en: "Mokaikai - New Private Dwelling",
-      af: "Mokaikai - Nuwe privaat woning"
+      en: "Mokaikai - New Private Dwelling"
     },
     location: "Mokaikai",
     description: {
-      en: "New private dwelling from slab to roof structure and finishes.",
-      af: "Nuwe privaat woning vanaf vloerblad tot dakstruktuur en afwerkings."
+      en: "New private home built from the slab through to the roof and final finishes."
     },
     thumb: "img/MokaikaiB-1.jpeg",
     images: [
@@ -155,17 +416,14 @@ const projectsData = [
     id: "koro-creek",
     type: "renovation",
     categoryKey: {
-      en: "Fire-damage reconstruction",
-      af: "Herbou na brandskade"
+      en: "Fire-damage reconstruction"
     },
     title: {
-      en: "Koro Creek Golf Estate (Modimolle)",
-      af: "Koro Creek Gholflandgoed (Modimolle)"
+      en: "Koro Creek Golf Estate (Modimolle)"
     },
     location: "Modimolle",
     description: {
-      en: "Reconstruction of a fire-damaged home at Koro Creek Golf Estate.",
-      af: "Herbou van ’n huis wat brandskade opgedoen het by Koro Creek Gholflandgoed."
+      en: "Rebuilt home after fire damage at Koro Creek Golf Estate."
     },
     thumb: "img/KoroCreek-1.jpeg",
     images: [
@@ -181,17 +439,14 @@ const projectsData = [
     id: "shona-langa-t6",
     type: "new-build",
     categoryKey: {
-      en: "New private dwelling",
-      af: "Nuwe privaat woning"
+      en: "New private dwelling"
     },
     title: {
-      en: "Shona Langa T6 - Bela Bela",
-      af: "Shona Langa T6 - Bela Bela"
+      en: "Shona Langa T6 - Bela Bela"
     },
     location: "Bela Bela District",
     description: {
-      en: "Double-storey face-brick home with pitched roof and integrated double garage.",
-      af: "Dubbelverdieping baksteenhuis met teëldak en geïntegreerde dubbelmotorhuis."
+      en: "Double-storey brick home with a pitched roof and double garage."
     },
     thumb: "img/ShonaLangaT6-1.jpeg",
     images: [
@@ -207,17 +462,14 @@ const projectsData = [
     id: "dikgatlhong",
     type: "renovation",
     categoryKey: {
-      en: "Lodge reconstruction",
-      af: "Herbou van lodge"
+      en: "Lodge reconstruction"
     },
     title: {
-      en: "Dikgatlhong Game Lodge (Twin Rivers Lodge)",
-      af: "Dikgatlhong Wildlodge (Twin Rivers Lodge)"
+      en: "Dikgatlhong Game Lodge (Twin Rivers Lodge)"
     },
     location: "Twin Rivers Lodge",
     description: {
-      en: "Reconstruction of a fire-damaged lodge, completed March 2015.",
-      af: "Herbou van ’n lodge wat brandskade opgedoen het; voltooi Maart 2015."
+      en: "Rebuilt lodge after fire damage. Completed in March 2015."
     },
     thumb: "img/Dikgatlhong-1.jpeg",
     images: [
@@ -231,17 +483,14 @@ const projectsData = [
     id: "shona-langa-m5",
     type: "new-build",
     categoryKey: {
-      en: "New private dwelling",
-      af: "Nuwe privaat woning"
+      en: "New private dwelling"
     },
     title: {
-      en: "Shona Langa M5",
-      af: "Shona Langa M5"
+      en: "Shona Langa M5"
     },
     location: "Shona Langa",
     description: {
-      en: "New private dwelling with generous living spaces and outdoor entertainment areas.",
-      af: "Nuwe privaat woning met ruim leefareas en buite-vermaakruimtes."
+      en: "Private home with spacious living areas and outdoor entertainment spaces."
     },
     thumb: "img/ShonaLangaM5-1.jpeg",
     images: [
@@ -257,17 +506,14 @@ const projectsData = [
     id: "shona-langa-g12",
     type: "new-build",
     categoryKey: {
-      en: "New private dwelling",
-      af: "Nuwe privaat woning"
+      en: "New private dwelling"
     },
     title: {
-      en: "Shona Langa G12",
-      af: "Shona Langa G12"
+      en: "Shona Langa G12"
     },
     location: "Shona Langa",
     description: {
-      en: "Bushveld dwelling combining stone, timber and large glazed openings.",
-      af: "Bosveldwoning wat klip, hout en groot glasopeninge kombineer."
+      en: "Bushveld home with stone, timber and large windows."
     },
     thumb: "img/ShonaLangaG12-1.jpeg",
     images: [
@@ -283,17 +529,14 @@ const projectsData = [
     id: "boekenhoutplaat",
     type: "new-build",
     categoryKey: {
-      en: "New private dwelling",
-      af: "Nuwe privaat woning"
+      en: "New private dwelling"
     },
     title: {
-      en: "Boekenhoutplaat (Mabalingwe)",
-      af: "Boekenhoutplaat (Mabalingwe)"
+      en: "Boekenhoutplaat (Mabalingwe)"
     },
     location: "Mabalingwe",
     description: {
-      en: "New private dwelling with lodge-style architecture in the Mabalingwe area.",
-      af: "Nuwe privaat woning met lodge-styl argitektuur in die Mabalingwe-gebied."
+      en: "Private home with lodge-style design in Mabalingwe."
     },
     thumb: "img/Boekenhoutplaat-1.jpeg",
     images: [
@@ -309,17 +552,14 @@ const projectsData = [
     id: "slipfontein",
     type: "new-build",
     categoryKey: {
-      en: "New private dwelling",
-      af: "Nuwe privaat woning"
+      en: "New private dwelling"
     },
     title: {
-      en: "Farm Slipfontein, Assen",
-      af: "Plaas Slipfontein, Assen"
+      en: "Farm Slipfontein, Assen"
     },
     location: "Assen, North West",
     description: {
-      en: "Construction of a new farmhouse and associated structures.",
-      af: "Bou van ’n nuwe plaashuis en verwante strukture."
+      en: "New farmhouse with supporting farm structures."
     },
     thumb: "img/Slipfontein-1.jpeg",
     images: [
@@ -335,17 +575,14 @@ const projectsData = [
     id: "harvey-thatch",
     type: "renovation",
     categoryKey: {
-      en: "Roof upgrade",
-      af: "Dakopgradering"
+      en: "Roof upgrade"
     },
     title: {
-      en: "Harvey Thatch Tile Roof Project",
-      af: "Harvey Gras-teël Dakprojek"
+      en: "Harvey Thatch Tile Roof Project"
     },
     location: "Various lodges",
     description: {
-      en: "Replacement of traditional thatch with Harvey thatch tile roofing.",
-      af: "Vervanging van tradisionele grasdak met Harvey gras-teëldakke."
+      en: "Replaced traditional thatch roofs with Harvey thatch tiles."
     },
     thumb: "img/HarveyThatch-1.jpeg",
     images: [
@@ -361,17 +598,14 @@ const projectsData = [
     id: "de-aar-solar",
     type: "new-build",
     categoryKey: {
-      en: "Solar / infrastructure",
-      af: "Sonkrag / infrastruktuur"
+      en: "Solar / infrastructure"
     },
     title: {
-      en: "De Aar Solar Farm",
-      af: "De Aar Sonplaas"
+      en: "De Aar Solar Farm"
     },
     location: "De Aar",
     description: {
-      en: "Labour supply and pole installation for a solar farm under strict project guidelines.",
-      af: "Arbeidsvoorsiening en oprigting van pale vir ’n sonplaas volgens streng riglyne."
+      en: "Provided labour and installed poles for the De Aar solar farm."
     },
     thumb: "img/DeAarSolar-1.jpeg",
     images: [
@@ -391,17 +625,14 @@ const projectsData = [
     id: "afgri-poultry",
     type: "listed",
     categoryKey: {
-      en: "Industrial / agricultural",
-      af: "Industrieel / landbou"
+      en: "Industrial / agricultural"
     },
     title: {
-      en: "Afgri Poultry (Pty) Ltd",
-      af: "Afgri Poultry (Edms) Bpk"
+      en: "Afgri Poultry (Pty) Ltd"
     },
     location: "South Africa",
     description: {
-      en: "Construction of broiler breeder houses and shower facilities.",
-      af: "Konstruksie van braaikuiken-teelhuise en stortfasiliteite."
+      en: "Built broiler breeder houses and shower facilities."
     },
     thumb: "",
     images: []
@@ -411,17 +642,14 @@ const projectsData = [
     id: "jj-enslin-attorneys",
     type: "listed",
     categoryKey: {
-      en: "Office upgrade",
-      af: "Kantoor-opgradering"
+      en: "Office upgrade"
     },
     title: {
-      en: "JJ Enslin Attorneys - Bela Bela",
-      af: "JJ Enslin Prokureurs - Bela Bela"
+      en: "JJ Enslin Attorneys - Bela Bela"
     },
     location: "Bela Bela",
     description: {
-      en: "Upgrade and renovation of law offices.",
-      af: "Opgradering en renovasie van prokureurskantoor."
+      en: "Renovated and upgraded the law offices."
     },
     thumb: "",
     images: []
@@ -431,17 +659,14 @@ const projectsData = [
     id: "zebula-country-club",
     type: "listed",
     categoryKey: {
-      en: "Lodge & club upgrades",
-      af: "Lodge- & klubwa-opgraderings"
+      en: "Lodge & club upgrades"
     },
     title: {
-      en: "Zebula Country Club - Bela Bela District",
-      af: "Zebula Country Club - Bela Bela Distrik"
+      en: "Zebula Country Club - Bela Bela District"
     },
     location: "Bela Bela District",
     description: {
-      en: "Upgrade of club house and lodge rooms plus additional construction work as required.",
-      af: "Opgradering van klubhuis en lodgekamers, plus verdere bouwerk soos benodig."
+      en: "Upgraded the clubhouse and lodge rooms, with additional building work."
     },
     thumb: "",
     images: []
@@ -451,17 +676,14 @@ const projectsData = [
     id: "mabalingwe-dwelling-1",
     type: "listed",
     categoryKey: {
-      en: "New private dwelling",
-      af: "Nuwe privaat woning"
+      en: "New private dwelling"
     },
     title: {
-      en: "Mabalingwe Nature Reserve - Bela Bela District",
-      af: "Mabalingwe Natuurreservaat - Bela Bela Distrik"
+      en: "Mabalingwe Nature Reserve - Bela Bela District"
     },
     location: "Mabalingwe",
     description: {
-      en: "Construction of a new private dwelling in Mabalingwe.",
-      af: "Bou van ’n nuwe privaat woning in Mabalingwe."
+      en: "Built a new private home in Mabalingwe Nature Reserve."
     },
     thumb: "",
     images: []
@@ -471,17 +693,14 @@ const projectsData = [
     id: "intaba-indle",
     type: "listed",
     categoryKey: {
-      en: "New private dwelling",
-      af: "Nuwe privaat woning"
+      en: "New private dwelling"
     },
     title: {
-      en: "Intaba Indle - Bela Bela",
-      af: "Intaba Indle - Bela Bela"
+      en: "Intaba Indle - Bela Bela"
     },
     location: "Bela Bela",
     description: {
-      en: "Construction of a new private dwelling in Intaba Indle estate.",
-      af: "Bou van ’n nuwe privaat woning in die Intaba Indle-landgoed."
+      en: "Built a new private home in Intaba Indle estate."
     },
     thumb: "",
     images: []
@@ -491,17 +710,14 @@ const projectsData = [
     id: "mabalingwe-dwelling-2",
     type: "listed",
     categoryKey: {
-      en: "New private dwelling",
-      af: "Nuwe privaat woning"
+      en: "New private dwelling"
     },
     title: {
-      en: "Mabalingwe Nature Reserve - Bela Bela District",
-      af: "Mabalingwe Natuurreservaat - Bela Bela Distrik"
+      en: "Mabalingwe Nature Reserve - Bela Bela District"
     },
     location: "Mabalingwe",
     description: {
-      en: "Additional new private dwelling in Mabalingwe Nature Reserve.",
-      af: "Nog ’n nuwe privaat woning in Mabalingwe Natuurreservaat."
+      en: "Built another private home in Mabalingwe Nature Reserve."
     },
     thumb: "",
     images: []
@@ -511,17 +727,14 @@ const projectsData = [
     id: "ticaboo-farm",
     type: "listed",
     categoryKey: {
-      en: "Farm infrastructure",
-      af: "Plaasinfrastruktuur"
+      en: "Farm infrastructure"
     },
     title: {
-      en: "Ticaboo Farm - Alma District",
-      af: "Ticaboo Plaas - Alma Distrik"
+      en: "Ticaboo Farm - Alma District"
     },
     location: "Alma District",
     description: {
-      en: "Construction and upgrades to existing buildings and farm infrastructure.",
-      af: "Konstruksie en opgraderings aan bestaande geboue en plaasinfrastruktuur."
+      en: "Built and upgraded farm buildings and infrastructure."
     },
     thumb: "",
     images: []
@@ -531,17 +744,14 @@ const projectsData = [
     id: "margeraf-farms",
     type: "listed",
     categoryKey: {
-      en: "Farmhouse revamp",
-      af: "Plaashuis-opknapping"
+      en: "Farmhouse revamp"
     },
     title: {
-      en: "Margeraf Farms",
-      af: "Margeraf Plase"
+      en: "Margeraf Farms"
     },
     location: "South Africa",
     description: {
-      en: "Total revamp and additions to an existing farmhouse.",
-      af: "Volledige opknapping en aanbouings aan bestaande plaashuis."
+      en: "Renovated the farmhouse and added new sections."
     },
     thumb: "",
     images: []
@@ -551,17 +761,14 @@ const projectsData = [
     id: "waterryk-farms",
     type: "listed",
     categoryKey: {
-      en: "Alterations & revamp",
-      af: "Veranderings & opknapping"
+      en: "Alterations & revamp"
     },
     title: {
-      en: "Waterryk Farms",
-      af: "Waterryk Plase"
+      en: "Waterryk Farms"
     },
     location: "South Africa",
     description: {
-      en: "Alterations and revamp of six houses on the farm.",
-      af: "Veranderings en opknapping van ses huise op die plaas."
+      en: "Renovated and altered six houses on the farm."
     },
     thumb: "",
     images: []
@@ -571,17 +778,14 @@ const projectsData = [
     id: "mabula-complex-upgrades",
     type: "listed",
     categoryKey: {
-      en: "Lodge & resort upgrades",
-      af: "Lodge- & oord-opgraderings"
+      en: "Lodge & resort upgrades"
     },
     title: {
-      en: "Mabula Game Reserve",
-      af: "Mabula Wildreservaat"
+      en: "Mabula Game Reserve"
     },
     location: "Mabula",
     description: {
-      en: "Revamp of restaurant kitchen, conference centre, lodges, boma and chalets; reconstruction of fire-damaged units and Harvey tile roof upgrades.",
-      af: "Opknapping van restaurantkombuis, konferensiesentrum, lodges, boma en chalets; herbou van brandskadewoonstelle en Harvey-teël dakprojekte."
+      en: "Renovated the restaurant kitchen, conference centre, lodges, boma and chalets, including fire repairs and roof upgrades."
     },
     thumb: "",
     images: []
@@ -591,17 +795,14 @@ const projectsData = [
     id: "mabula-farm-witwal",
     type: "listed",
     categoryKey: {
-      en: "New private dwelling",
-      af: "Nuwe privaat woning"
+      en: "New private dwelling"
     },
     title: {
-      en: "Mabula Game Reserve (Farm Witwal)",
-      af: "Mabula Wildreservaat (Plaas Witwal)"
+      en: "Mabula Game Reserve (Farm Witwal)"
     },
     location: "Mabula",
     description: {
-      en: "Construction of a new private dwelling on Farm Witwal.",
-      af: "Bou van ’n nuwe privaat woning op Plaas Witwal."
+      en: "Built a new private home on Farm Witwal."
     },
     thumb: "",
     images: []
@@ -611,17 +812,14 @@ const projectsData = [
     id: "mokaikai-eagles-view",
     type: "listed",
     categoryKey: {
-      en: "Lodge reconstruction",
-      af: "Herbou van lodge"
+      en: "Lodge reconstruction"
     },
     title: {
-      en: "Mokaikai Private Game Reserve, Eagles View Lodge (Mabula)",
-      af: "Mokaikai Privaat Wildreservaat, Eagles View Lodge (Mabula)"
+      en: "Mokaikai Private Game Reserve, Eagles View Lodge (Mabula)"
     },
     location: "Mabula",
     description: {
-      en: "Reconstruction of a fire-damaged lodge unit.",
-      af: "Herbou van ’n lodge-eenheid wat brandskade opgedoen het."
+      en: "Rebuilt a lodge unit after fire damage."
     },
     thumb: "",
     images: []
@@ -631,17 +829,14 @@ const projectsData = [
     id: "mokaikai-37",
     type: "listed",
     categoryKey: {
-      en: "Extension to dwelling",
-      af: "Uitbreiding van woning"
+      en: "Extension to dwelling"
     },
     title: {
-      en: "Mokaikai Private Game Reserve, #37 (Mabula)",
-      af: "Mokaikai Privaat Wildreservaat, #37 (Mabula)"
+      en: "Mokaikai Private Game Reserve, #37 (Mabula)"
     },
     location: "Mabula",
     description: {
-      en: "Extensions to existing dwelling.",
-      af: "Uitbreiding aan bestaande woning."
+      en: "Extended the existing private home."
     },
     thumb: "",
     images: []
@@ -651,17 +846,14 @@ const projectsData = [
     id: "mokaikai-management",
     type: "listed",
     categoryKey: {
-      en: "Management facilities",
-      af: "Bestuursfasiliteite"
+      en: "Management facilities"
     },
     title: {
-      en: "Mokaikai Private Game Reserve (Mabula) – Mokaikai Management",
-      af: "Mokaikai Privaat Wildreservaat (Mabula) – Mokaikai Bestuur"
+      en: "Mokaikai Private Game Reserve (Mabula) – Mokaikai Management"
     },
     location: "Mabula",
     description: {
-      en: "Construction and upgrades for management facilities at Mokaikai.",
-      af: "Bou en opgraderings vir bestuursfasiliteite by Mokaikai."
+      en: "Built and upgraded management facilities at Mokaikai."
     },
     thumb: "",
     images: []
@@ -671,17 +863,14 @@ const projectsData = [
     id: "mabalingwe-dwelling-3",
     type: "listed",
     categoryKey: {
-      en: "New private dwelling",
-      af: "Nuwe privaat woning"
+      en: "New private dwelling"
     },
     title: {
-      en: "Mabalingwe Nature Reserve - Bela Bela District",
-      af: "Mabalingwe Natuurreservaat - Bela Bela Distrik"
+      en: "Mabalingwe Nature Reserve - Bela Bela District"
     },
     location: "Mabalingwe",
     description: {
-      en: "Construction of additional new private dwelling in Mabalingwe.",
-      af: "Konstruksie van nog ’n nuwe privaat woning in Mabalingwe."
+      en: "Built a new private home in Mabalingwe."
     },
     thumb: "",
     images: []
@@ -691,17 +880,14 @@ const projectsData = [
     id: "bela-bela-alterations-1",
     type: "listed",
     categoryKey: {
-      en: "Alterations to dwelling",
-      af: "Veranderings aan woning"
+      en: "Alterations to dwelling"
     },
     title: {
-      en: "Bela Bela - Private Dwelling",
-      af: "Bela Bela - Privaat woning"
+      en: "Bela Bela - Private Dwelling"
     },
     location: "Bela Bela",
     description: {
-      en: "Alterations to a private dwelling in Bela Bela.",
-      af: "Veranderings aan ’n privaat woning in Bela Bela."
+      en: "Altered and updated a private home in Bela Bela."
     },
     thumb: "",
     images: []
@@ -711,17 +897,14 @@ const projectsData = [
     id: "raasblaar-ground-hornbill",
     type: "listed",
     categoryKey: {
-      en: "Repairs & reconstruction",
-      af: "Herstelwerk & herbou"
+      en: "Repairs & reconstruction"
     },
     title: {
-      en: "Raasblaar & Ground Hornbill Project (Mabula Game Reserve)",
-      af: "Raasblaar & Ground Hornbill Projek (Mabula Wildreservaat)"
+      en: "Raasblaar & Ground Hornbill Project (Mabula Game Reserve)"
     },
     location: "Mabula",
     description: {
-      en: "Reconstruction on a damaged unit at the Ground Hornbill project and various repairs at Raasblaar.",
-      af: "Herbou van beskadigde eenheid by die Ground Hornbill-projek en verskeie herstelwerk by Raasblaar."
+      en: "Rebuilt a damaged unit at the Ground Hornbill project and completed repairs at Raasblaar."
     },
     thumb: "",
     images: []
@@ -731,17 +914,14 @@ const projectsData = [
     id: "jeff-drill-blast",
     type: "listed",
     categoryKey: {
-      en: "Labour & plant supply",
-      af: "Arbeid & toerusting"
+      en: "Labour & plant supply"
     },
     title: {
-      en: "Jeff Drill & Blast",
-      af: "Jeff Drill & Blast"
+      en: "Jeff Drill & Blast"
     },
     location: "De Aar Solar Site",
     description: {
-      en: "Supplied labour and vehicles at the De Aar solar panel site.",
-      af: "Arbeid en voertuie voorsien by die De Aar sonpaneelwerf."
+      en: "Supplied labour and vehicles for work at the De Aar solar site."
     },
     thumb: "",
     images: []
@@ -751,17 +931,14 @@ const projectsData = [
     id: "moncada",
     type: "listed",
     categoryKey: {
-      en: "Labour & plant supply",
-      af: "Arbeid & toerusting"
+      en: "Labour & plant supply"
     },
     title: {
-      en: "Moncada Construzioni SA (Pty) Ltd",
-      af: "Moncada Construzioni SA (Edms) Bpk"
+      en: "Moncada Construzioni SA (Pty) Ltd"
     },
     location: "De Aar Solar Site",
     description: {
-      en: "Additional labour and vehicle supply at the De Aar solar panel site.",
-      af: "Bykomende arbeid en voertuie voorsien by die De Aar sonpaneelwerf."
+      en: "Supplied additional labour and vehicles for work at the De Aar solar site."
     },
     thumb: "",
     images: []
@@ -771,17 +948,14 @@ const projectsData = [
     id: "mabalingwe-dwelling-4",
     type: "listed",
     categoryKey: {
-      en: "New private dwelling",
-      af: "Nuwe privaat woning"
+      en: "New private dwelling"
     },
     title: {
-      en: "Mabalingwe Nature Reserve - Bela Bela District",
-      af: "Mabalingwe Natuurreservaat - Bela Bela Distrik"
+      en: "Mabalingwe Nature Reserve - Bela Bela District"
     },
     location: "Mabalingwe",
     description: {
-      en: "Construction of a further new private dwelling in Mabalingwe.",
-      af: "Konstruksie van nóg ’n nuwe privaat woning in Mabalingwe."
+      en: "Built a new private home in Mabalingwe."
     },
     thumb: "",
     images: []
@@ -791,17 +965,14 @@ const projectsData = [
     id: "shona-langa-general",
     type: "listed",
     categoryKey: {
-      en: "New dwelling & additions",
-      af: "Nuwe woning & aanbiedings"
+      en: "New dwelling & additions"
     },
     title: {
-      en: "Shona Langa - Bela Bela District",
-      af: "Shona Langa - Bela Bela Distrik"
+      en: "Shona Langa - Bela Bela District"
     },
     location: "Bela Bela District",
     description: {
-      en: "Construction of a new private dwelling plus additions to an existing dwelling.",
-      af: "Bou van ’n nuwe privaat woning en aanbouings aan bestaande woning."
+      en: "Built a new private home and added onto an existing home."
     },
     thumb: "",
     images: []
@@ -811,17 +982,14 @@ const projectsData = [
     id: "bela-bela-alterations-2",
     type: "listed",
     categoryKey: {
-      en: "Alterations to dwelling",
-      af: "Veranderings aan woning"
+      en: "Alterations to dwelling"
     },
     title: {
-      en: "Bela Bela - Alterations to Private Dwelling",
-      af: "Bela Bela - Veranderings aan privaat woning"
+      en: "Bela Bela - Alterations to Private Dwelling"
     },
     location: "Bela Bela",
     description: {
-      en: "Further alterations to private dwellings in Bela Bela.",
-      af: "Verdere veranderings aan privaat wonings in Bela Bela."
+      en: "Completed further alterations to private homes in Bela Bela."
     },
     thumb: "",
     images: []
@@ -831,17 +999,14 @@ const projectsData = [
     id: "pretoria-moreletta",
     type: "listed",
     categoryKey: {
-      en: "Alterations to dwelling",
-      af: "Veranderings aan woning"
+      en: "Alterations to dwelling"
     },
     title: {
-      en: "Pretoria, Moreletta Park",
-      af: "Pretoria, Moreletta Park"
+      en: "Pretoria, Moreletta Park"
     },
     location: "Pretoria",
     description: {
-      en: "Alterations to a private dwelling in Moreletta Park.",
-      af: "Veranderings aan ’n privaat woning in Moreletta Park."
+      en: "Altered and updated a private home in Moreletta Park."
     },
     thumb: "",
     images: []
@@ -851,17 +1016,14 @@ const projectsData = [
     id: "highlands-wilderness",
     type: "listed",
     categoryKey: {
-      en: "Dwelling & roof upgrade",
-      af: "Woning & dakopgradering"
+      en: "Dwelling & roof upgrade"
     },
     title: {
-      en: "Highlands Wilderness, Bela Bela District",
-      af: "Highlands Wilderness, Bela Bela Distrik"
+      en: "Highlands Wilderness, Bela Bela District"
     },
     location: "Bela Bela District",
     description: {
-      en: "Construction to private dwelling including Harvey tile roof cover.",
-      af: "Konstruksiewerk aan privaat woning, insluitend Harvey-teël dakbedekking."
+      en: "Completed building work and added a Harvey tile roof to a private home."
     },
     thumb: "",
     images: []
@@ -871,17 +1033,14 @@ const projectsData = [
     id: "zwartkloof-private-game",
     type: "listed",
     categoryKey: {
-      en: "Extension to dwelling",
-      af: "Uitbreiding van woning"
+      en: "Extension to dwelling"
     },
     title: {
-      en: "Zwartkloof Private Game Reserve - Bela Bela District",
-      af: "Zwartkloof Privaat Wildreservaat - Bela Bela Distrik"
+      en: "Zwartkloof Private Game Reserve - Bela Bela District"
     },
     location: "Bela Bela District",
     description: {
-      en: "Extension to a private dwelling in Zwartkloof Private Game Reserve.",
-      af: "Uitbreiding aan privaat woning in Zwartkloof Privaat Wildreservaat."
+      en: "Extended a private home in Zwartkloof Private Game Reserve."
     },
     thumb: "",
     images: []

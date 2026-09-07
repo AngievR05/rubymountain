@@ -1229,3 +1229,434 @@ h3 {
     font-size: 1.8rem;
   }
 }
+/* =========================================================
+   PROJECTS PAGE – ENHANCED GALLERY & INTERACTION
+   ========================================================= */
+
+body.is-modal-open {
+  overflow: hidden;
+}
+
+.projects-page {
+  min-height: 70vh;
+}
+
+.projects-page__header {
+  margin-bottom: 2rem;
+}
+
+.projects-page__header p:last-child {
+  max-width: 58ch;
+  margin-inline: auto;
+}
+
+.projects-page__eyebrow,
+.modal__eyebrow {
+  margin-bottom: 0.45rem;
+  color: var(--dune);
+  font-size: 0.74rem;
+  font-weight: 600;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+}
+
+.projects-toolbar {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-bottom: 1.75rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid rgba(124, 86, 61, 0.16);
+}
+
+.projects-toolbar .projects-filter {
+  margin-top: 0;
+}
+
+.projects-toolbar__hint {
+  margin: 0;
+  max-width: 28ch;
+  color: var(--text-muted);
+  font-size: 0.8rem;
+  text-align: right;
+}
+
+.filter-btn {
+  transition:
+    background-color 0.2s ease,
+    border-color 0.2s ease,
+    color 0.2s ease,
+    transform 0.2s ease;
+}
+
+.filter-btn:hover {
+  transform: translateY(-1px);
+}
+
+.filter-btn:focus-visible,
+.modal__close:focus-visible,
+.image-lightbox__close:focus-visible,
+.image-lightbox__nav:focus-visible,
+.modal__gallery img:focus-visible {
+  outline: 3px solid rgba(160, 80, 53, 0.34);
+  outline-offset: 3px;
+}
+
+/* Keep every project thumbnail the same landscape size. */
+.project-card__thumb {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  border-radius: 8px;
+  overflow: hidden;
+  background-color: var(--cloth);
+}
+
+.project-card__thumb img,
+.project-card img {
+  width: 100%;
+  height: 100%;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 8px;
+}
+
+.project-card {
+  height: 100%;
+}
+
+.project-card h3 {
+  margin-top: 0.25rem;
+  margin-bottom: 0;
+}
+
+.project-card__meta {
+  margin-top: auto;
+}
+
+/* Project modal */
+.modal__backdrop {
+  backdrop-filter: blur(4px);
+}
+
+.modal__dialog {
+  inset: 4% 50% auto 50%;
+  width: min(900px, 100% - 2.5rem);
+  max-height: 92vh;
+}
+
+.modal__content {
+  padding: 0 1.75rem 1.75rem;
+}
+
+.modal__heading {
+  padding-right: 2.75rem;
+}
+
+.modal__heading h2 {
+  margin-top: 0;
+  margin-bottom: 0.55rem;
+}
+
+.modal__close {
+  position: sticky;
+  top: 0;
+  z-index: 4;
+  width: 44px;
+  height: 44px;
+  margin: 0.55rem 0.55rem 0 auto;
+  padding: 0;
+  display: grid;
+  place-items: center;
+  border-radius: 50%;
+  background: rgba(254, 251, 247, 0.94);
+  color: var(--text-main);
+  box-shadow: 0 5px 18px rgba(0,0,0,0.12);
+  line-height: 1;
+}
+
+.modal__close:hover {
+  background: var(--dune);
+  color: #fff;
+}
+
+.modal__gallery-header {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-top: 1.5rem;
+  margin-bottom: 0.75rem;
+  padding-top: 1rem;
+  border-top: 1px solid rgba(124, 86, 61, 0.16);
+}
+
+.modal__gallery-header h3,
+.modal__gallery-header p {
+  margin: 0;
+}
+
+.modal__gallery-header p {
+  color: var(--text-muted);
+  font-size: 0.8rem;
+}
+
+.modal__gallery {
+  margin-top: 0;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 0.75rem;
+}
+
+.modal__gallery img {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 8px;
+  cursor: zoom-in;
+  background-color: var(--cloth);
+  transition:
+    transform 0.22s ease,
+    box-shadow 0.22s ease,
+    opacity 0.22s ease;
+}
+
+.modal__gallery img:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 12px 25px rgba(0,0,0,0.16);
+  opacity: 0.96;
+}
+
+/* Full-screen image viewer */
+.image-lightbox__backdrop {
+  background: rgba(24, 17, 12, 0.92);
+  backdrop-filter: blur(8px);
+}
+
+.image-lightbox__dialog {
+  inset: 50% auto auto 50%;
+  transform: translate(-50%, -50%);
+  width: min(94vw, 1280px);
+  height: min(88vh, 820px);
+  display: grid;
+  grid-template-columns: 56px minmax(0, 1fr) 56px;
+  align-items: center;
+  gap: 1rem;
+}
+
+.image-lightbox__figure {
+  min-width: 0;
+  margin: 0;
+}
+
+.image-lightbox__frame {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  display: grid;
+  place-items: center;
+  overflow: hidden;
+  border-radius: 12px;
+  background: #17110d;
+  box-shadow: 0 28px 70px rgba(0,0,0,0.48);
+}
+
+#lightbox-img {
+  width: 100%;
+  height: 100%;
+  max-width: none;
+  max-height: none;
+  border-radius: 0;
+  box-shadow: none;
+  object-fit: contain;
+  object-position: center;
+}
+
+.image-lightbox__caption {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-top: 0.7rem;
+  color: rgba(255,255,255,0.82);
+  font-size: 0.78rem;
+}
+
+#lightbox-counter {
+  min-width: 4.5rem;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+}
+
+.image-lightbox__help {
+  color: rgba(255,255,255,0.6);
+  text-align: right;
+}
+
+.image-lightbox__nav,
+.image-lightbox__close {
+  border: 1px solid rgba(255,255,255,0.2);
+  background: rgba(255,255,255,0.92);
+  color: var(--text-main);
+  cursor: pointer;
+  transition:
+    background-color 0.2s ease,
+    color 0.2s ease,
+    transform 0.2s ease;
+}
+
+.image-lightbox__nav {
+  width: 52px;
+  height: 52px;
+  display: grid;
+  place-items: center;
+  border-radius: 50%;
+  font-size: 2.2rem;
+  line-height: 1;
+}
+
+.image-lightbox__nav:hover,
+.image-lightbox__close:hover {
+  background: var(--dune);
+  color: #fff;
+  transform: scale(1.04);
+}
+
+.image-lightbox__nav[hidden] {
+  visibility: hidden;
+}
+
+.image-lightbox__close {
+  top: -18px;
+  right: 0;
+  z-index: 3;
+}
+
+/* Projects page responsiveness */
+@media (max-width: 900px) {
+  .projects-toolbar {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .projects-toolbar__hint {
+    max-width: none;
+    text-align: left;
+  }
+
+  .modal__gallery {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .image-lightbox__dialog {
+    width: min(96vw, 960px);
+    height: auto;
+    grid-template-columns: 46px minmax(0, 1fr) 46px;
+    gap: 0.55rem;
+  }
+
+  .image-lightbox__nav {
+    width: 44px;
+    height: 44px;
+    font-size: 1.85rem;
+  }
+}
+
+@media (max-width: 720px) {
+  .modal__dialog {
+    inset: 3% 0 auto 0;
+    width: min(94vw, 620px);
+    max-height: 94vh;
+  }
+
+  .modal__content {
+    padding-inline: 1rem;
+  }
+
+  .modal__gallery-header {
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 0.2rem;
+  }
+
+  .image-lightbox__dialog {
+    width: 100%;
+    padding-inline: 0.75rem;
+    grid-template-columns: 1fr;
+    gap: 0.7rem;
+  }
+
+  .image-lightbox__figure {
+    grid-row: 1;
+    grid-column: 1;
+  }
+
+  .image-lightbox__frame {
+    border-radius: 8px;
+  }
+
+  .image-lightbox__nav {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba(255,255,255,0.88);
+  }
+
+  .image-lightbox__nav:hover {
+    transform: translateY(-50%) scale(1.04);
+  }
+
+  .image-lightbox__nav--prev {
+    left: 1rem;
+  }
+
+  .image-lightbox__nav--next {
+    right: 1rem;
+  }
+
+  .image-lightbox__close {
+    top: -56px;
+    right: 0.75rem;
+  }
+
+  .image-lightbox__caption {
+    padding-inline: 0.2rem;
+  }
+
+  .image-lightbox__help {
+    display: none;
+  }
+}
+
+@media (max-width: 520px) {
+  .projects-filter {
+    width: 100%;
+  }
+
+  .filter-btn {
+    flex: 1 1 calc(50% - 0.6rem);
+  }
+
+  .modal__gallery {
+    grid-template-columns: 1fr;
+  }
+
+  .modal__gallery img {
+    aspect-ratio: 16 / 9;
+  }
+
+  .image-lightbox__caption {
+    justify-content: center;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .project-card,
+  .filter-btn,
+  .modal__gallery img,
+  .image-lightbox__nav,
+  .image-lightbox__close {
+    transition: none !important;
+  }
+}
